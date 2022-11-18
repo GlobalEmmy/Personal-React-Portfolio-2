@@ -1,5 +1,6 @@
 import Logo from "../../assets/ZURI-Certificate.PNG";
 import data from "./date";
+import {IoIosColorPalette} from "react-icons/io";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -15,9 +16,9 @@ const Navbar = () => {
           }
 
         </ul>
+        <button id="theme__icon"><IoIosColorPalette/></button>
       </div>
     </nav>
   )
 }
-
 export default Navbar
